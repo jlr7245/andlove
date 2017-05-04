@@ -3,6 +3,18 @@ import logo from './logo.svg';
 import './App.css';
 
 class App extends Component {
+  constructor() {
+    super();
+    this.componentDidMount = this.componentDidMount.bind(this);
+  }
+  componentDidMount() {
+    fetch('/temp')
+      .then(res => {
+        return res.json();
+      })
+      .then(resJSON => {console.log(resJSON)});
+  }
+
   render() {
     return (
       <div className="App">
