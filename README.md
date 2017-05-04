@@ -1,24 +1,7 @@
-# README
+# &love
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+An LGBT+ wedding planning app.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- Rails API
+- React frontend bootstrapped with `create-react-app`
+- Followed [this tutorial](https://www.fullstackreact.com/articles/how-to-get-create-react-app-to-work-with-your-rails-api/) with some modifications
